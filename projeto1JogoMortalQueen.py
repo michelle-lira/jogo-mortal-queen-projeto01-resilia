@@ -137,7 +137,7 @@ Ib:::::::::::"        "        `::::::' `:::::::::dI
         respostaCharada1 = input("Digite sua resposta: ")
     else:
         print("O número digitado não corresponde a uma ação no jogo. Digite 1 ou 2.")
-        cena1 = int(input("Qual caminho você escolhe? Digite 1 / 2: "))                # adicionar um loop
+        cena1 = int(input("Qual caminho você escolhe? Digite 1 / 2: "))               
 
 
     if respostaCharada1.lower() == "octodecágono":
@@ -354,6 +354,13 @@ Ib:::::::::::"        "        `::::::' `:::::::::dI
     print("|        FIM DE JOGO       |".center(30))
     print("-="*15)
 
-# if(__name__ == "__main__"):
 jogarMortalQueen()
 
+novaRodada = int(input('''Deseja jogar novamente?
+    (1) - Sim
+    (2) - Não\n'''))
+
+if (novaRodada == 1):
+    jogarMortalQueen()
+else:
+    print("ATÉ A PRÓXIMA!")
