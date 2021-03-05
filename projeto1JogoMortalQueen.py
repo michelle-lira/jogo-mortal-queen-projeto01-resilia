@@ -230,7 +230,7 @@ Ib:::::::::::"        "        `::::::' `:::::::::dI
 
     print('''
     Você chegou ao Templo de Karnak. 
-    Subirá 3 lances de escadas, atravessará uma alamdeda, e chegará ao Salão sem Fim.
+    Subirá 3 lances de escadas, atravessará uma alameda, e chegará ao Salão sem Fim.
     ''') 
 
     print('''
@@ -304,7 +304,7 @@ Ib:::::::::::"        "        `::::::' `:::::::::dI
         # else:
         #     print("Até a próxima!")
     elif cena2 == salaRubis:
-        print("Bem-vindo ao Salão dos Rubis!\n")
+        print("Bem-vindo a Sala dos Rubis!\n")
         print('''
         Kaleo, está enfeitiçado por Cleópatra.
         A Faraó gargalha pois sabe que está perto de aprisionar vocês para sempre!
