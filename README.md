@@ -94,7 +94,7 @@ Na urna do sarcófago, a serpente de Hatshepsut comandará o ataque caso o jogad
 
 
 
-Em seguida é a vez do Templo de Karnak, com o Salão sem Fim: Salão sem Fim.
+Em seguida é a vez do Templo de Karnak, com o Salão sem Fim:
 
 > É possível ouvir gargalhadas e gritos, mas você está confuso e não consegue saber de onde vem cada som, 
 > nem há quanto tempo os escuta. 
