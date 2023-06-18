@@ -124,11 +124,11 @@ Ib:::::::::::"        "        `::::::' `:::::::::dI
 
     if cena1 == escada:
         print("A escada tem apenas 7 degraus e você caiu no calabouço cheio de jacarés. FIM DE JOGO.")
-        # repetirJogo1 = input("Deseja jogar novamente? [S / N]")
-        # if repetirJogo1.upper() == "S":
-        #     jogar()
-        # else:
-        #     print("Até a próxima!")
+        repetirJogo1 = input("Deseja jogar novamente? [S / N]")
+        if repetirJogo1.upper() == "S":
+            jogarMortalQueen()
+        else:
+            print("Até a próxima!")
     elif cena1 == porta:
         print("Você entrou no Salão das Pinturas. Aqui elas tem vida e decidem o seu futuro!")
         print("A pintura de Nefertiti tem uma charada para você!")
@@ -144,18 +144,18 @@ Ib:::::::::::"        "        `::::::' `:::::::::dI
         print("Você acertou! Ganhou uma pista. Siga para o Sarcófago.")
     else:
         print("Você errou. Está afundando na Sala das Pinturas. FIM DE JOGO.")
-        # repetirJogo2 = input("Deseja jogar novamente? [S / N]")
-        # if repetirJogo2.upper() == "S":
-        #     jogar()
-        # elif repetirJogo2.upper() == "N":
-        #     print("Até a próxima!")
-        # else:
-        #     print("Opção não disponível. Tente novamente.")
-        #     repetirJogo2 = input("Deseja jogar novamente? [S / N]")
-        #     if repetirJogo2.upper() == "S":
-        #         jogar()
-        #     if repetirJogo2.upper() == "N":
-        #         print("Até a próxima!")
+        repetirJogo2 = input("Deseja jogar novamente? [S / N]")
+        if repetirJogo2.upper() == "S":
+            jogarMortalQueen()
+        elif repetirJogo2.upper() == "N":
+            print("Até a próxima!")
+        else:
+            print("Opção não disponível. Tente novamente.")
+            repetirJogo2 = input("Deseja jogar novamente? [S / N]")
+            if repetirJogo2.upper() == "S":
+                jogarMortalQueen()
+            if repetirJogo2.upper() == "N":
+                print("Até a próxima!")
 
 
     print('''
@@ -221,11 +221,11 @@ Ib:::::::::::"        "        `::::::' `:::::::::dI
         print("Você acertou! Vá para o Templo de Karnak.\n")
     else:
         print("Você errou. Será atacado pelas serpentes e escorpiões. FIM DE JOGO.\r\n")
-        # repetirJogo3 = input("Deseja jogar novamente? [S / N]")
-        # if repetirJogo3.upper() == "S":
-        #     jogar()
-        # else:
-        #     print("Até a próxima!")
+        repetirJogo3 = input("Deseja jogar novamente? [S / N]")
+        if repetirJogo3.upper() == "S":
+            jogarMortalQueen()
+        else:
+            print("Até a próxima!")
 
 
     print('''
@@ -296,13 +296,16 @@ Ib:::::::::::"        "        `::::::' `:::::::::dI
         respostaEnigma1 = input("Digite sua resposta: ")
         if respostaEnigma1.lower() == "a":
             print("Resposta certa! Parabéns você escapou da Maldição da Rainha!!!\r\n")
+            repetirJogo4 = input("Deseja jogar novamente? [S / N]")
+        if repetirJogo4.upper() == "S":
+            jogarMortalQueen()
         else:
             print("Resposta errada. Você caiu na maldição da Rainha! FIM DE JOGO.\r\n")
-        #     repetirJogo4 = input("Deseja jogar novamente? [S / N]")
-        # if repetirJogo4.upper() == "S":
-        #     jogar()
-        # else:
-        #     print("Até a próxima!")
+            repetirJogo5 = input("Deseja jogar novamente? [S / N]")
+        if repetirJogo5.upper() == "S":
+            jogarMortalQueen()
+        else:
+            print("Até a próxima!")
     elif cena2 == salaRubis:
         print("Bem-vindo a Sala dos Rubis!\n")
         print('''
@@ -320,14 +323,18 @@ Ib:::::::::::"        "        `::::::' `:::::::::dI
         if respostaCharada3.lower() == "m":
             print("Use moeda com a face de Cleopatra. Ela é a chave para sair da Sala dos Rubis.\r\n")
             print("Resposta correta! Parabéns você escapou da maldição da Rainha!!!\n")
+            repetirJogo6 = input("Deseja jogar novamente? [S / N]")
+
+        if repetirJogo6.upper() == "S":
+            jogarMortalQueen()
         else:
             print("Resposta errada. Agora você também será enfeitiçado. Você caiu na Maldição da Rainha!!!\r\n")
-        #     repetirJogo5 = input("Deseja jogar novamente? [S / N]")
+            repetirJogo7 = input("Deseja jogar novamente? [S / N]")
 
-        # if repetirJogo5.upper() == "S":
-        #     jogar()
-        # else:
-        #     print("Até a próxima!")
+        if repetirJogo7.upper() == "S":
+            jogarMortalQueen()
+        else:
+            print("Até a próxima!")
 
 
     print('''
