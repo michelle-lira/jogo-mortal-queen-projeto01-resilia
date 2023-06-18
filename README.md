@@ -3,7 +3,17 @@
 
 ## Visão geral do projeto: :crystal_ball: 
 
+## O que é preciso para jogar?
+Você precisa apenas ter o python instalado na sua máquina.     
+Não há necessidade de instalação de bibliotecas adicionais.      
+Pode rodar o jogo no terminal, pode executar também no Visual Studio Code ou outra IDE de sua preferência.       
 
+Para rodar no terminal, siga para o diretório onde está o arquivo .py       
+Use o comando:
+```
+python projeto1JogoMortalQueen.py
+``` 
+<br>   
 
 #### O objetivo foi fazer um jogo com vários finais baseados em escolhas, seguindo este fluxo padrão:
 
@@ -172,8 +182,6 @@ while jogadorEscolhido != 1 and jogadorEscolhido != 2 and jogadorEscolhido != 3:
 * https://docs.python.org/pt-br/3/library/functions.html
 * https://www.asciiart.eu/art-and-design/egyptian
 * https://ascii.co.uk/art/sphinx
-
-
 
 
 
